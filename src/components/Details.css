@@ -1,0 +1,24 @@
+
+#main{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+#backdiv{
+     text-align: center;
+}
+#backdiv button{
+     width: 100px;
+     margin: 20px 20px;
+}
+@media screen and (max-width: 600px) {
+     #main{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+     }
+    
+    
+   }
+
+ 
